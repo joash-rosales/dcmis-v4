@@ -1,0 +1,695 @@
+body {
+	background-color: #ececec;
+}
+
+.navbar {
+	background-color: #9865b0;
+	height: 40px;
+}
+
+#navshadow {
+	background-color: #be99d0;
+	width: 96%;
+	height: 10px;
+}
+
+.navbar-brand img {
+	width: 100px;
+}
+
+#act {
+	color: #fff;
+	background-color: #472258;
+}
+
+#unact {
+	color: #fff;
+}
+
+#unact:hover {
+	color: #fff;
+	background-color: #472258;
+}
+
+#additional {
+	background-color: #ffff9b;
+	width: 92%;
+	height: 120px;
+}
+
+#content {
+	background-color: #fff;
+	width: 92%;
+	height: 700px;
+}
+
+#homecontent {
+	background-color: #fff;
+	width: 92%;
+	height: 600px;
+}
+
+#addpatcontent {
+	background-color: #fff;
+	width: 92%;
+	height: 860px;
+}
+
+#viewpatcontent {
+	background-color: #fff;
+	width: 92%;
+	height: 860px;
+}
+
+#schedcontent {
+	background-color: #fff;
+	width: 92%;
+	height: 600px;
+}
+
+#recordcontent {
+	background-color: #fff;
+	width: 92%;
+	height: 440px;
+}
+
+#viewpatcontent input{
+	border: none;
+	box-shadow: none;
+}
+
+#tooth1 {
+	background-color: #ffffb9;
+	border-radius: 0px 0px 40px 40px;
+	width: 19%;
+	height: 240px;
+	display: inline-block;
+	margin-left: 9px;
+	margin-right:  9px;
+	color: #ccc;
+}
+
+#tooth1 h1{
+	font-size: 100px;
+	padding-top: 50px;
+	margin-bottom: -4px;
+}
+
+#tooth1:hover {
+	background-color: transparent;
+	border-left: 4px solid;
+	border-right: 4px solid;
+	border-bottom: 4px solid;
+	border-color: #ffffb9;
+}
+
+#tooth2 {
+	background-color: #ffff9b;
+	border-radius: 0px 0px 40px 40px;
+	width: 26%;
+	height: 240px;
+	display: inline-block;
+	margin-left: 9px;
+	margin-right:  9px;
+	color: #ccc;
+}
+
+#tooth2 h1{
+	font-size: 100px;
+	padding-top: 50px;
+	margin-bottom: -4px;
+}
+
+#tooth2:hover {
+	background-color: transparent;
+	border-left: 4px solid;
+	border-right: 4px solid;
+	border-bottom: 4px solid;
+	border-color: #ffff9b;
+}
+
+#tooth3 {
+	background-color: #ffff9b;
+	border-radius: 0px 0px 40px 40px;
+	width: 26%;
+	height: 240px;
+	display: inline-block;
+	margin-left: 9px;
+	margin-right:  9px;
+	color: #ccc;
+}
+
+#tooth3 h1{
+	font-size: 100px;
+	padding-top: 50px;
+	margin-bottom: -4px;
+}
+
+#tooth3:hover {
+	background-color: transparent;
+	border-left: 4px solid;
+	border-right: 4px solid;
+	border-bottom: 4px solid;
+	border-color: #ffff9b;
+}
+
+#tooth4 {
+	background-color: #ffffb9;
+	border-radius: 0px 0px 40px 40px;
+	width: 19%;
+	height: 240px;
+	display: inline-block;
+	margin-left: 9px;
+	margin-right:  9px;
+	color: #ccc;
+}
+
+#tooth4 h1{
+	font-size: 100px;
+	padding-top: 50px;
+	margin-bottom: -4px;
+}
+
+#tooth4:hover {
+	background-color: transparent;
+	border-left: 4px solid;
+	border-right: 4px solid;
+	border-bottom: 4px solid;
+	border-color: #ffffb9;
+}
+
+#desc {
+	width: 80%;
+	padding-top: 30px;
+	padding-left: 80px;
+	padding-right: 80px;
+	margin-top: 60px;
+	color: #6a6a6a;
+	border-top: 2px dashed;
+}
+
+
+
+
+
+
+
+
+
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #ffffcc;
+}
+
+.widewrapper {
+	width: 100%;
+	position: absolute;
+	display: block;
+	height: 180px;
+	margin-top: -10px;
+	margin-left: -34px;
+}
+
+footer h4 {
+	border-bottom: 1px solid;
+	border-color: #ffffcc;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	color: #fff;
+}
+
+footer img {
+	margin-top: 46px;
+	width: 260px;
+}
+
+
+
+
+
+
+
+
+
+.input-group {
+	width: 200px;
+	float: right;
+	margin-top: 74px;
+}
+
+.input-group input{
+	border-color: transparent;
+}
+
+#addpatient {
+	width: 130px;
+	float: right;
+	margin-top: 74px;
+	margin-left: 10px;
+}
+
+#addpatient a {
+	text-decoration: none;
+	color: #6a6a6a;
+}
+
+#backpatient {
+	width: 100px;
+	float: right;
+	margin-top: 74px;
+	margin-left: 10px;
+}
+
+#backpatient a {
+	text-decoration: none;
+	color: #6a6a6a;
+}
+
+#editpatient {
+	width: 130px;
+	float: right;
+	margin-top: 74px;
+	margin-left: 10px;
+}
+
+#editpatient a {
+	text-decoration: none;
+	color: #6a6a6a;
+}
+
+#savepatient {
+	width: 80px;
+	float: right;
+	margin-top: 74px;
+	margin-left: 10px;
+}
+
+#savepatient a {
+	text-decoration: none;
+	color: #6a6a6a;
+}
+
+#recordpatient {
+	width: 100px;
+	float: right;
+	margin-top: 74px;
+	margin-left: 10px;
+}
+
+#recordpatient a {
+	text-decoration: none;
+	color: #6a6a6a;
+}
+
+.thumbnail {
+	border: none;
+	margin-top: 30px;
+	background-color: none;
+	box-shadow: none;
+}
+
+.thumbnail img {
+	border-radius: 100px;
+	border: 2px solid #ffff9b;
+}
+
+.thumbnail img:hover {
+	opacity: 0.6;
+}
+
+.thumbnail h4 {
+	padding-top: 20px;
+}
+
+.thumbnail span {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #dddddd;
+}
+
+.thumbnail span:hover {
+	color: #8f8f8f;
+}
+
+
+
+
+
+
+
+
+#coninput {
+	margin-left: -20px;
+	width: 730px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+#coninput2 {
+	margin-left: -20px;
+	float: left;
+	width: 730px;
+	margin-bottom: 10px;
+}
+
+#input {
+	float: left;
+	text-align: left;
+	position: relative;
+}
+
+#name1 {
+	margin-bottom: -10px;
+}
+
+#name {
+	width: 200px;
+	margin-right: 10px;
+}
+
+#add1 {
+	margin-bottom: -10px;
+}
+
+#add {
+	width: 300px;
+	margin-right: 10px;
+}
+
+#tell1 {
+	margin-bottom: -10px;
+}
+
+#tell {
+	width: 150px;
+	margin-right: 10px;
+}
+
+#age1 {
+	margin-bottom: -10px;
+}
+
+#age {
+	width: 60px;
+	margin-right: 10px;
+}
+
+#sex1 {
+	margin-bottom: -10px;
+}
+
+#sex {
+	width: 80px;
+	margin-right: 10px;
+}
+
+#ms1 {
+	margin-bottom: -10px;
+}
+
+#ms {
+	width: 160px;
+	margin-right: 10px;
+}
+
+#occu1 {
+	margin-bottom: -10px;
+}
+
+#occu {
+	width: 180px;
+	margin-right: 10px;
+}
+
+#cell1 {
+	margin-bottom: -10px;
+}
+
+#cell {
+	width: 150px;
+	margin-right: 10px;
+}
+
+#oa1 {
+	margin-bottom: -10px;
+}
+
+#oa {
+	width: 510px;
+	margin-right: 10px;
+}
+
+#com1 {
+	margin-bottom: -10px;
+}
+
+#com {
+	width: 670px;
+	margin-right: 10px;
+}
+
+#oh1 {
+	margin-bottom: -10px;
+}
+
+#oh {
+	width: 120px;
+	margin-right: 10px;
+}
+
+#pc1 {
+	margin-bottom: -10px;
+}
+
+#pc {
+	width: 160px;
+	margin-right: 10px;
+}
+
+#dent1 {
+	margin-bottom: -10px;
+	margin-right: 10px;
+	width: 80px;
+}
+
+#up1 {
+	margin-bottom: -10px;
+}
+
+#up {
+	width: 80px;
+	margin-right: 10px;
+}
+
+#since1 {
+	margin-bottom: -10px;
+}
+
+#since {
+	width: 110px;
+	margin-right: 10px;
+}
+
+#dent2 {
+	margin-bottom: -10px;
+	margin-right: 10px;
+	width: 80px;
+}
+
+#low1 {
+	margin-bottom: -10px;
+}
+
+#low {
+	width: 80px;
+	margin-right: 10px;
+}
+
+#since2 {
+	margin-bottom: -10px;
+}
+
+#sinced {
+	width: 110px;
+	margin-right: 10px;
+}
+
+#an1 {
+	margin-bottom: -10px;
+}
+
+#an {
+	width: 120px;
+	margin-right: 10px;
+}
+
+#gen1 {
+	margin-bottom: -10px;
+}
+
+#gen {
+	width: 160px;
+	margin-right: 10px;
+}
+
+#phy1 {
+	margin-bottom: -10px;
+}
+
+#phy {
+	width: 120px;
+	margin-right: 10px;
+}
+
+#not1 {
+	margin-bottom: -10px;
+}
+
+#not {
+	width: 160px;
+	margin-right: 10px;
+}
+
+#all1 {
+	margin-bottom: -10px;
+}
+
+#all {
+	width: 120px;
+	margin-right: 10px;
+}
+
+#hob1 {
+	margin-bottom: -10px;
+}
+
+#hob {
+	width: 160px;
+	margin-right: 10px;
+}
+
+#ca1 {
+	margin-bottom: -10px;
+}
+
+#ca {
+	width: 160px;
+	margin-right: 10px;
+}
+
+#bp1 {
+	margin-bottom: -10px;
+}
+
+#bp {
+	width: 120px;
+}
+
+#dbt1 {
+	margin-bottom: -10px;
+}
+
+#dbt {
+	width: 290px;
+	margin-right: 10px;
+}
+
+#diagram td:hover{
+	background-color: #ccc;
+}
+
+#diagram2{
+	margin-top: -21px;
+}
+
+#diagram3{
+	margin-top: -21px;
+}
+
+#diagram3 td:hover{
+	background-color: #ccc;
+}
+
+#diagram6{
+	width: 360px;
+}
+
+#table3 div{
+	height:34px;
+	border-radius: 60px;
+	border: 1px solid #ccc;
+	margin-left: -6px;
+	margin-right: -6px;
+}
+
+#mid {
+	border-right: 1px solid #ccc;
+}
+
+#table3 div:hover{
+	background-color: maroon;
+}
+
+#table4 {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#image1 {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#photo {
+	float: left;
+}
+
+#photo2 {
+	margin-top: -10px;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+#rec {
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+
+#addsched {
+	width: 160px;
+	float: right;
+	margin-top: 74px;
+	margin-left: 10px;
+}
+
+.modal-dialog {
+	width: 360px;
+}
+
+.modal-header {
+	background-color: #9865b0;
+	color: #fff;
+}
+
+.row {
+	text-align: left;
+}
+
+#element1 {
+	width: 300px;
+}
